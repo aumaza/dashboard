@@ -16,6 +16,12 @@
 
   <!-- Custom styles for this template -->
   <link href="css/simple-sidebar.css" rel="stylesheet">
+  
+   <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 
 </head>
 
@@ -27,9 +33,10 @@
     <div class="bg-light border-right" id="sidebar-wrapper">
       <div class="sidebar-heading"><img src="icons/categories/preferences-desktop-peripherals.png"  class="img-reponsive img-rounded"> Menú </div>
       <div class="list-group list-group-flush">
-        <a href="https://deps.slackzone.com.ar/agenda-sirhu" class="list-group-item list-group-item-action bg-light" target="blank"><img src="icons/actions/bookmarks-organize.png"  class="img-reponsive img-rounded"> Agenda-Sirhu</a>
-        <a href="https://deps.slackzone.com.ar/wiki/" class="list-group-item list-group-item-action bg-light" target="blank"><img src="icons/apps/akregator.png"  class="img-reponsive img-rounded"> Wiki</a>
-        <a href="https://deps.slackzone.com.ar/forum/" class="list-group-item list-group-item-action bg-light" target="blank"><img src="icons/actions/im-identi.ca.png"  class="img-reponsive img-rounded"> Forum</a>
+        <a href="https://deps.slackzone.com.ar/agenda-sirhu" class="list-group-item list-group-item-action bg-light" target="blank" data-toggle="tooltip" data-placement="left" title="Agenda y Calendario"><img src="icons/actions/bookmarks-organize.png"  class="img-reponsive img-rounded"> Agenda-Sirhu</a>
+        <a href="https://deps.slackzone.com.ar/wiki/" class="list-group-item list-group-item-action bg-light" target="blank" data-toggle="tooltip" data-placement="left" title="Genere y Comparta Documentación"><img src="icons/apps/akregator.png"  class="img-reponsive img-rounded"> Wiki</a>
+        <a href="https://deps.slackzone.com.ar/forum/" class="list-group-item list-group-item-action bg-light" target="blank" data-toggle="tooltip" data-placement="left" title="Espacio para debatir y compartir ideas y Conocimientos"><img src="icons/actions/im-identi.ca.png"  class="img-reponsive img-rounded"> Forum</a>
+        <a href="https://deps.slackzone.com.ar/siadcon/" class="list-group-item list-group-item-action bg-light" target="blank" data-toggle="tooltip" data-placement="left" title="Sistema de Administración de Contratos"><img src="icons/places/folder-bookmark.png"  class="img-reponsive img-rounded"> Siadcon</a>
         <a href="https://git.glavic.ar/" class="list-group-item list-group-item-action bg-light" target="blank"><img src="icons/actions/system-run.png"  class="img-reponsive img-rounded"> IT</a>
         </div>
     </div>
